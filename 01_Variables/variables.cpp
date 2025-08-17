@@ -30,3 +30,5 @@ int main() {
 
     return 0;
 }
+
+// clang++ variables.cpp -o variables && ./variables

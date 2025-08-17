@@ -21,3 +21,5 @@ int main() {
     return 0;
 }
 
+// clang++ functions.cpp -o functions && ./functions
+
