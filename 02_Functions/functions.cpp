@@ -6,13 +6,18 @@ int add(int a, int b) {
     return a + b;
 }
 
-void printMessage(string msg) {
+void printMessage(const string& msg) {
     cout << msg << endl;
 }
 
 int main() {
     int x = 10, y = 20;
     int sum = add(x, y);
-    printMessage("計算結果: " + to_string(sum));
+
+    // 安全に文字列結合する
+    string result = string("計算結果: ") + to_string(sum);
+    printMessage(result);
+
     return 0;
 }
+
