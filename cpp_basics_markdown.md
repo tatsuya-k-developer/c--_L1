@@ -1,5 +1,10 @@
 # C++基礎（詳しい解説）
 
+## コンパイルと実行方法
+```bash
+clang++ variables.cpp -o variables && ./variables
+```
+
 ## 1️⃣ 変数・型・演算子・if・for/while
 
 ### 変数と型
